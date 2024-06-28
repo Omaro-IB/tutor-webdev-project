@@ -10,6 +10,8 @@ lerna-debug.log*
 # Modules and assets
 front/node_modules
 front/public
+front/src/assets
+front/src/assets/*
 dist
 dist-ssr
 *.local

@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import './App.css'
+import Home from './components/Home'
 
 function App() {
   return (
-    <div>
-        <p>Initial commit</p>
+    <div className="flex flex-col">
+        <Home />
+        <p className={"mb-10 font-bold"}>Something else</p>
     </div>
   )
 }
