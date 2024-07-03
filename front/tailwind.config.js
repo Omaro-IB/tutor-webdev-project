@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     colors: {
-      'plain-bg': '#e8e5e5',
+      'plain-bg': '#f3edec',
       'plain-fg': '#3e3e3e',
       'primary1': '#EEB798',
       'primary1-transparent': 'rgba(238,183,152,0.1)',

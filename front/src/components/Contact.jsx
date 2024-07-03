@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div id="contact" className="py-10 bg-plain-bg flex">
             {/*Top One*/}
-            <div className='pt-10 w-[90vw] sm:w-[60vw] mx-auto bg-primary2 max-h-screen rounded-[30px]'>
+            <div className='pt-10 w-[90vw] sm:w-[60vw] mx-auto bg-primary2-hover max-h-screen rounded-[30px]'>
                 {/*Omar*/}
                 <div className={"px-10"}>
                     <div className="text-3xl md:text-4xl mb-2">  {/* contact title */}
@@ -18,7 +18,7 @@ const Contact = () => {
                     <ContactForm/>
                 </div>
                 {/*Arun*/}
-                <div className="px-10 py-10 w-[90vw] sm:w-[60vw] mx-auto bg-primary1 rounded-[30px] mt-10">
+                <div className="px-10 py-10 w-[90vw] sm:w-[60vw] mx-auto bg-primary1-hover rounded-[30px] mt-10">
                     <div className="text-3xl md:text-4xl mb-2">  {/* contact title */}
                         Contact Arun
                     </div>
