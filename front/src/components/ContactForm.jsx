@@ -35,7 +35,7 @@ const ContactForm = ({who}) => {
     else {  // not submitted or unsuccessful
         return (<form onSubmit={(event) => addForm(event)}>
                 <div>
-                    <p>{(submitted === 2) ? "An error prevented your form from submitting, please try again or send an email if the issue persists" : ""}</p>
+                    <p className="text-error">{(submitted === 2) ? "An error prevented your form from submitting, please try again or send an email if the issue persists" : ""}</p>
                 </div>
 
                 <div className="pt-0 mb-3">

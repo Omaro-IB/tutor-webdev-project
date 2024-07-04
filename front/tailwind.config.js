@@ -22,6 +22,7 @@ export default {
       'accent1-hover': "#BDE8CE",
       'accent2': "#E3DE9B",
       'accent2-hover': "#efecc6",
+      'error':"#ef6363",
       'test1': "#aa0000",
       'test2': "#00288e",
       'test3': "#246000",
