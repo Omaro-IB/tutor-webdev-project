@@ -1,3 +1,16 @@
+# Backend
+back/.npm
+back/node_modules/
+firebase.json
+back/.firebase
+back/.firebasesrc
+back/pids
+*.pid
+*.seed
+*.pid.lock
+firebase-debug.log*
+firebase-debug.*.log*
+
 # Logs
 logs
 *.log
